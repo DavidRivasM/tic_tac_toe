@@ -1,13 +1,66 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
 
-/* 
+body {
+font-family: 'Stalinist One', cursive;}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.board {
+position: relative;
+left: 0px;
+top: 100px;
+width: 330px;
+margin: auto;
+}
 
-*/
+.square {
+color: black ;
+border-color: black;
+font-size: 90px;
+width: 120px;
+height: 120px;
+
+line-height: 98px;
+border-style: solid;
+border-width: 3px 3px 3px 3px;
+text-align: center;
+border-radius: 10px;
+}
+
+.buttons {
+padding: 10px;
+margin: 10px;
+}
+
+input {
+margin: 10px;
+padding: 10px;
+border-radius: 5px;
+}
+.butonX {
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+position: relative;
+left: -50px;
+top: 0px;
+font-size: 40px;
+
+}
+.butonY {
+border-radius: 5px;
+padding: 10px;
+margin: 10px;
+position: relative;
+left: 50px;
+top: 0px;
+font-size: 40px;
+}
+
+.turno {
+    margin-top: -80px;
+}
+
+.butonReset {
+    margin: 30px;
+    border-radius: 5px;
+}
